@@ -168,6 +168,7 @@ nitpicky = True
 
 # Exact (type, target) pairs that cannot be resolved and should be ignored.
 nitpick_ignore = [
+    ("py:attr", "type"),
     # sly has no intersphinx inventory; all sly.* cross-refs are unresolvable
     ("py:class", "sly.Parser"),
     ("py:class", "sly.Lexer"),
